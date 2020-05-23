@@ -44,23 +44,19 @@ img.center {
     font-size: larger;
 }
 
-.column {
-    float: left;
-    width: 10%;
-    padding: 5px;
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+   
+  .grid__item {
+    width: 100%;
+    height: 200px;
+    background: skyblue;
   }
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-.row {
-    font-family: monospace;
-    font-size: larger;
-    text-align: left;
-}
+
   
 h1 {
     color:whitesmoke;
